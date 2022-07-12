@@ -2,8 +2,11 @@
 // getLargest(3, 5, 2) -> 5
 
 const getLargest = (a, b, c) => {
-    console.log(a, b, c)
     return Math.max(a, b, c);
+}
+
+const getSmallest = (a, b, c) => {
+    return Math.min(a, b, c);
 }
 
 // Export the function so it's available to other files
