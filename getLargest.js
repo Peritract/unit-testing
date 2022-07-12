@@ -2,6 +2,7 @@
 // getLargest(3, 5, 2) -> 5
 
 const getLargest = (a, b, c) => {
+    console.log(a, b, c)
     return Math.max(a, b, c);
 }
 
